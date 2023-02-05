@@ -1,0 +1,42 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-image: url(https://i.stack.imgur.com/O6FaW.png);
+    background-size: cover;
+}
+
+.wrap {
+   position: relative;
+    min-height: 50vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;    
+}
+
+.wrap > * {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.wrap .video{
+    border: 5px solid black;
+}
+
+.face {
+   position: absolute;
+}
+
+.main_title{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 100%;
+    height: 5vw;
+    background-color: bisque;
+    text-align: center;
+}
